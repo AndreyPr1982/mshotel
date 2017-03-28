@@ -1,0 +1,27 @@
+<img src="img/main_grid.png">
+
+<h2>Примеры документов</h2>
+
+<p>
+  <font size=3>
+  Здесь представлены примеры документов, которые программа формирует в автоматическом режиме.
+  Все шаблоны могут быть изменены в соответствии с вашими пожеланиями. Эта услуга бесплатна.
+</p>
+
+<ul>
+  <li ng-repeat="file in files">
+    <a href="/{{ file }}">
+      {{ file }}
+    </a>
+  </li>
+</ul>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75584560-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

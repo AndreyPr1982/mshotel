@@ -1,0 +1,14 @@
+{
+  "name": "mshotel",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "connect": "~3.3.5",
+    "content-disposition": "^0.5.0",
+    "node-windows": "^0.1.7",
+    "serve-static": "~1.9.3"
+  }
+}
