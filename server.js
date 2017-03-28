@@ -1,3 +1,4 @@
+
 var appDir = __dirname + '/app',
     filesDir = __dirname + '/files';
 
