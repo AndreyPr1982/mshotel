@@ -9,5 +9,8 @@
     "connect": "~3.3.5",
     "content-disposition": "^0.5.0",
     "serve-static": "~1.9.3"
+  },
+  "devDependencies": {
+    "github-webhook-deployer": "^1.0.0"
   }
 }
