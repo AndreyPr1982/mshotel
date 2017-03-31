@@ -24,6 +24,10 @@ function serveFile(req, res, next) {
     var pathname = decodeURIComponent(url.parse(req.url).pathname),
         filePath = filesDir + pathname;
 
+    console.log('Serving file...');
+    console.log(filesDir);
+    console.log(pathname);
+
     fs.existsSync(filePath) || next();
 
     serveStatic(filesDir, {
