@@ -1,6 +1,6 @@
 var mshotelApp = angular.module('mshotelApp', [
     'ngRoute',
-    'mshotelControllers',
+    'mshotelControllers'
 ]);
 
 mshotelApp.config(function ($routeProvider) {
